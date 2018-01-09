@@ -1,0 +1,19 @@
+#ifndef canine_H
+#define canine_H
+#include <iostream>
+#include <string>
+#include "mammal.h"
+using namespace std;
+
+class canine : public Mammal{
+ public:
+  char * breed;
+  // void setlegs(int a);
+  canine();
+  ~canine();
+  virtual char * dogbreed();
+       
+};
+
+
+#endif

@@ -1,0 +1,37 @@
+#include "Conditions.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+Conditions::Conditions(){}
+
+
+void Conditions::setOwner(string jefe){
+	this->owner=jefe;
+}
+void Conditions::setStatus(string estatus) {
+	this->status=estatus;
+}
+
+void Conditions::setObject(string object) {
+    this->object = object;
+}
+
+void Conditions::setHas(string has) {
+    this->has = has;
+}
+
+
+
+
+Owner Conditions::getOwner()
+{
+	return owner;
+}
+string Conditions::getStatus()
+{
+	return status;
+}
+
+

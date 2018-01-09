@@ -1,0 +1,11 @@
+This is in NO WAY a thorough representation of what is tested in the grading server.  Go through the specifications and ensure you have everything covered.
+
+File type explanation:
+
+.xml - XML map
+.txt - input to be tested
+.out - resulting output
+
+g++ -std=c++0x Attack.cpp Container.cpp Creature.cpp Item.cpp Inventory.cpp code.cpp Owner.cpp Room.cpp Triggers.cpp -o new
+
+new sample.txt.xml

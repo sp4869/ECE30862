@@ -1,0 +1,15 @@
+#ifndef canine_H
+#define canine_H
+#include <iostream>
+#include <string>
+using namespace std;
+
+class canine : public mammal{
+ public:
+  void setlegs(int a);
+      virtual void getlegs();
+       
+};
+
+
+#endif

@@ -1,0 +1,17 @@
+#include <string>
+#include <iostream>
+#include "canine.h"
+#include "mammal.h"
+using namespace std;
+
+canine::~canine(){}
+canine::canine():Mammal(4)
+{
+}
+char * canine::dogbreed(char * breed){
+  return breed;
+}
+
+//int getlegs(int a ){
+// return a;
+//}

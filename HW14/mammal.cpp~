@@ -1,0 +1,12 @@
+#include <string>
+#include <iostream>
+#include "mammal.h"
+using namespace std;
+
+Mammal::~Mammal(){}
+Mammal::Mammal(int a){}
+int final Mammal::getlegs(){
+  return legs;
+}
+
+
